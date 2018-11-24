@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lga.naivelauncher.AppsDrawerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appsDrawerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppsDrawerFragment"
+    android:background="#e6ffffff"
+    android:fitsSystemWindows="true">
+
+    <SearchView
+        android:id="@+id/appsDrawerSearchView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:editTextColor="@color/primary"
+        android:elevation="4dp"
+        android:iconifiedByDefault="true"
+        android:queryHint="Search apps"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- paddingTop = 12dp + 48dp + 16dp -->
+    <com.lga.naivelauncher.AppsDrawerGridView
+        android:id="@+id/appsDrawerGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_app"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:paddingTop="76dp"
+        android:paddingBottom="12dp"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@color/primary">
+    </com.lga.naivelauncher.AppsDrawerGridView>
+
+    <View
+        android:id="@+id/appsDrawerScrollBarView"
+        android:layout_width="4dp"
+        android:layout_height="0dp"
+        android:background="@color/primary"
+        android:visibility="invisible"/>
+
+</com.lga.naivelauncher.AppsDrawerView>

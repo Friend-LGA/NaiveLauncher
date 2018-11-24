@@ -1,0 +1,195 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="title">
+
+    <Preference
+        android:key="basic_preference"
+        android:title="title_basic_preference"
+        android:summary="summary_basic_preference"
+        app:iconSpaceReserved="false" />
+
+    <PreferenceCategory
+        android:title="inline_preferences"
+        app:iconSpaceReserved="false">
+
+        <CheckBoxPreference
+            android:key="checkbox_preference"
+            android:title="title_checkbox_preference"
+            android:summary="summary_checkbox_preference"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreference
+            android:key="switch_preference"
+            android:title="Switch preference"
+            android:summary="This is a switch"
+            app:iconSpaceReserved="false"/>
+
+        <DropDownPreference
+            android:key="dropdown_preference"
+            android:title="title_dropdown_preference"
+            android:summary="summary_dropdown_preference"
+            android:entries="@array/settings_headers"
+            android:entryValues="@array/settings_headers"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="dialog_based_preferences"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:key="edittext_preference"
+            android:title="title_edittext_preference"
+            android:summary="summary_edittext_preference"
+            android:dialogTitle="dialog_title_edittext_preference"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:key="list_preference"
+            android:title="title_list_preference"
+            android:summary="summary_list_preference"
+            android:entries="@array/settings_headers"
+            android:entryValues="@array/settings_headers"
+            android:dialogTitle="dialog_title_list_preference"
+            app:iconSpaceReserved="false"/>
+
+        <MultiSelectListPreference
+            android:key="multi_select_list_preference"
+            android:title="title_multi_list_preference"
+            android:summary="summary_multi_list_preference"
+            android:entries="@array/settings_headers"
+            android:entryValues="@array/settings_headers"
+            android:dialogTitle="dialog_title_multi_list_preference"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="basic_preference"
+        android:title="title_basic_preference"
+        android:summary="summary_basic_preference"
+        app:iconSpaceReserved="false" />
+
+    <PreferenceCategory
+        android:title="inline_preferences"
+        app:iconSpaceReserved="false">
+
+        <CheckBoxPreference
+            android:key="checkbox_preference"
+            android:title="title_checkbox_preference"
+            android:summary="summary_checkbox_preference"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreference
+            android:key="switch_preference"
+            android:title="Switch preference"
+            android:summary="This is a switch"
+            app:iconSpaceReserved="false"/>
+
+        <DropDownPreference
+            android:key="dropdown_preference"
+            android:title="title_dropdown_preference"
+            android:summary="summary_dropdown_preference"
+            android:entries="@array/settings_headers"
+            android:entryValues="@array/settings_headers"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="dialog_based_preferences"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:key="edittext_preference"
+            android:title="title_edittext_preference"
+            android:summary="summary_edittext_preference"
+            android:dialogTitle="dialog_title_edittext_preference"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:key="list_preference"
+            android:title="title_list_preference"
+            android:summary="summary_list_preference"
+            android:entries="@array/settings_headers"
+            android:entryValues="@array/settings_headers"
+            android:dialogTitle="dialog_title_list_preference"
+            app:iconSpaceReserved="false"/>
+
+        <MultiSelectListPreference
+            android:key="multi_select_list_preference"
+            android:title="title_multi_list_preference"
+            android:summary="summary_multi_list_preference"
+            android:entries="@array/settings_headers"
+            android:entryValues="@array/settings_headers"
+            android:dialogTitle="dialog_title_multi_list_preference"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <Preference
+        android:key="basic_preference"
+        android:title="title_basic_preference"
+        android:summary="summary_basic_preference"
+        app:iconSpaceReserved="false" />
+
+    <PreferenceCategory
+        android:title="inline_preferences"
+        app:iconSpaceReserved="false">
+
+        <CheckBoxPreference
+            android:key="checkbox_preference"
+            android:title="title_checkbox_preference"
+            android:summary="summary_checkbox_preference"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreference
+            android:key="switch_preference"
+            android:title="Switch preference"
+            android:summary="This is a switch"
+            app:iconSpaceReserved="false"/>
+
+        <DropDownPreference
+            android:key="dropdown_preference"
+            android:title="title_dropdown_preference"
+            android:summary="summary_dropdown_preference"
+            android:entries="@array/settings_headers"
+            android:entryValues="@array/settings_headers"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="dialog_based_preferences"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:key="edittext_preference"
+            android:title="title_edittext_preference"
+            android:summary="summary_edittext_preference"
+            android:dialogTitle="dialog_title_edittext_preference"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            android:key="list_preference"
+            android:title="title_list_preference"
+            android:summary="summary_list_preference"
+            android:entries="@array/settings_headers"
+            android:entryValues="@array/settings_headers"
+            android:dialogTitle="dialog_title_list_preference"
+            app:iconSpaceReserved="false"/>
+
+        <MultiSelectListPreference
+            android:key="multi_select_list_preference"
+            android:title="title_multi_list_preference"
+            android:summary="summary_multi_list_preference"
+            android:entries="@array/settings_headers"
+            android:entryValues="@array/settings_headers"
+            android:dialogTitle="dialog_title_multi_list_preference"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

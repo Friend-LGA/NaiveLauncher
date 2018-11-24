@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--&lt;!&ndash;GENERAL&ndash;&gt;-->
+
+    <!--<string-array name="icon_shape_names">-->
+        <!--<item>@string/default</item>-->
+        <!--<item>@string/none</item>-->
+        <!--<item>@string/circle</item>-->
+        <!--<item>@string/squircle</item>-->
+        <!--<item>@string/square</item>-->
+    <!--</string-array>-->
+
+    <!--<string-array name="icon_shape_values">-->
+        <!--<item>default</item>-->
+        <!--<item>none</item>-->
+        <!--<item>M50 0A50 50,0,1,1,50 100A50 50,0,1,1,50 0</item>-->
+        <!--<item>M50,0 C10,0 0,10 0,50 0,90 10,100 50,100 90,100 100,90 100,50 100,10 90,0 50,0 Z</item>-->
+        <!--<item>M50,0L100,0 100,100 0,100 0,0z</item>-->
+    <!--</string-array>-->
+
+
+
+    <!--<string-array name="auto_night_mode_names">-->
+        <!--<item>@string/on</item>-->
+        <!--<item>@string/off</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash;DESKTOP&ndash;&gt;-->
+
+    <!--<string-array name="status_bar_style_names">-->
+        <!--<item>@string/status_bar_style_light</item>-->
+        <!--<item>@string/status_bar_style_dark</item>-->
+    <!--</string-array>-->
+
+    <!--<integer-array name="status_bar_style_values">-->
+        <!--<item>0</item>-->
+        <!--<item>1</item>-->
+    <!--</integer-array>-->
+
+    <!--&lt;!&ndash;APP DRAWER&ndash;&gt;-->
+
+</resources>
